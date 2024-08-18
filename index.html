@@ -6,18 +6,48 @@
     <link rel="shortcut icon" href="./IMG/chowdeck logo.png" type="image/x-icon">
     <title>Chowdeck-stories</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
     <script defer src="main.js"></script>
 </head>
 <body>
     <header class="header">
-        <h1 class="header_h1">Stories</h1>
-        <img src="IMG/Pasta.svg" alt="pasta" class="header_img" width="90" height="90">
+        <div class="logo">
+            <img src="IMG/chowdeck logo.png" alt="cups" class="logo-img" width="39.8" height="39.8">
+            <h3 class="logo_h3">Chowdeck</h3>
+        </div>
+
+
+        <nav class="navigation">
+            <ul class="nav_ul">
+            <li class="navigation_li"><a class="navigation_a" href="#">Relay</a></li>
+            <li class="navigation_li"><a class="navigation_a" href="#">Company</a></li>
+            <li class="navigation_li"><a class="navigation_a" href="#">FAQs</a></li>
+            <li class="navigation_li"><a class="navigation_a" href="#">Blog</a></li>
+            <li class="navigation_li"><a class="navigation_a" href="#">Contact</a></li>
+            </ul>
+            <div class="sub_ul">
+                <button class="sub_ul_btn"><a href="">Customer</a></button>
+                <button class="sub_ul_btn"><i id="green" class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            </div>
+            </nav>
+
+        <button class="dropdown_toggle">
+            <img src="img/icon-hamburger.svg" alt="Hamburger" width="30">
+        </button>
+
     </header>
 
     <main class="main">
+
+        <div class="main_header">
+        <h1 class="header_h1">Stories</h1>
+        <img src="IMG/Pasta.svg" alt="pasta" class="header_img" width="90" height="90">
+        </div>
+
+        <div class="main_body">
         <section class="main_section">
             <div class="section_div">
-                <img src="IMG/Chicken Republic.png" alt="chicken republic" width="352" height="200" class="section_img">
+                <img src="IMG/Chicken Republic.png" alt="chicken republic" width="396" height="200" class="section_img">
             </div>
             <article class="section_article">
                 <h3 class="article_h3">
@@ -26,13 +56,13 @@
                 <p class="article_p">Chowdeck Announces Exclusive <br> Partnership with Chicken Republic in <br> Lagos and Ibadan</p>
 
                 <button class="article_button">
-                    Read More
+                     Read More
                 </button>
             </article>
         </section>
         <section class="main_section">
             <div class="section_div">
-                <img src="IMG/Food court.png" alt="food court" width="352" height="200" class="section_img">
+                <img src="IMG/Food court.png" alt="food court" width="396" height="200" class="section_img">
             </div>
             <article class="section_article">
                 <h3 class="article_h3">
@@ -41,13 +71,13 @@
                 <p class="article_p">Chowdeck Announces Exclusive <br> Partnership with Chicken Republic in <br> Lagos and Ibadan</p>
 
                 <button class="article_button">
-                    Read More
+                     Read More
                 </button>
             </article>
         </section>
         <section class="main_section">
             <div class="section_div">
-                <img src="IMG/Chowdeck.jpg" alt="chowdeck staff" width="352" height="200" class="section_img">
+                <img src="IMG/Chowdeck.jpg" alt="chowdeck staff" width="396" height="200" class="section_img">
             </div>
             <article class="section_article">
                 <h3 class="article_h3">
@@ -56,10 +86,16 @@
                 <p class="article_p">Chowdeck Announces Exclusive <br> Partnership with Chicken Republic in <br> Lagos and Ibadan</p>
 
                 <button class="article_button">
-                    Read More
+                     Read More
                 </button>
             </article>
         </section>
+        </div>
+
+        <div class="draganddrop">
+            <i class="fa-solid fa-messages"></i>
+        </div>
     </main>
+
 </body>
 </html>
